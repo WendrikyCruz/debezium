@@ -1,0 +1,25 @@
+{
+  "name": "oracle-connector-2",
+  "config": {
+    "connector.class": "io.debezium.connector.oracle.OracleConnector",
+    "database.hostname": "oracle-db",
+    "database.port": "1521",
+    "database.user": "system",
+    "database.password": "senha123",
+    "database.dbname": "XE",
+    "database.pdb.name": "XEPDB1",
+    "database.server.name": "oracle",
+    "database.history.kafka.bootstrap.servers": "kafka:9092",
+    "database.history.kafka.topic": "schema-changes.oracle",
+    "schema.history.internal.kafka.bootstrap.servers": "kafka:9092",
+    "schema.history.internal.kafka.topic": "schema-changes.oracle",
+    "include.schema.changes": "true",
+    "table.include.list": "dcn_user.teste",
+    "topic.prefix": "db-logs-2",
+    "database.oracle.version": "21",
+    "transforms": "filter",
+    "transforms.filter.type": "io.debezium.transforms.Filter",
+    "transforms.filter.language": "jsr223.groovy",
+    "transforms.filter.condition": "value.after != null && value.op == 'u' && value.after.STATUS.value == 'BAQ='"
+  }
+}
