@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="Página-1" id="6jiBiKoVfGP8mwHCfJsp">
+    <mxGraphModel dx="1147" dy="590" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#000000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w7heQW5GqkU1-STsUryA-1" value="" style="sketch=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_oracle_instance;" vertex="1" parent="1">
+          <mxGeometry x="302" y="320.5" width="52" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="w7heQW5GqkU1-STsUryA-5" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;" vertex="1" parent="1">
+          <mxGeometry x="575" y="315.75" width="61.5" height="61.5" as="geometry" />
+        </mxCell>
+        <mxCell id="w7heQW5GqkU1-STsUryA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#F7F7F7;" edge="1" parent="1" source="w7heQW5GqkU1-STsUryA-6" target="w7heQW5GqkU1-STsUryA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w7heQW5GqkU1-STsUryA-6" value="Debezium Connect" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="406" y="327" width="94" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="w7heQW5GqkU1-STsUryA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="w7heQW5GqkU1-STsUryA-7" target="w7heQW5GqkU1-STsUryA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w7heQW5GqkU1-STsUryA-7" value="Apis BCPA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="163" y="328" width="79" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="w7heQW5GqkU1-STsUryA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#F7F7F7;" edge="1" parent="1" source="w7heQW5GqkU1-STsUryA-6" target="w7heQW5GqkU1-STsUryA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w7heQW5GqkU1-STsUryA-14" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;strokeColor=#F5F5F5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="267" y="284" as="sourcePoint" />
+            <mxPoint x="267" y="348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w7heQW5GqkU1-STsUryA-15" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Operação de escrita na tabela de rastreabilidade&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#131414;" vertex="1" parent="1">
+          <mxGeometry x="208" y="219" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w7heQW5GqkU1-STsUryA-16" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Leitura dos log gerados&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#131414;" vertex="1" parent="1">
+          <mxGeometry x="328" y="411" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w7heQW5GqkU1-STsUryA-17" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;strokeColor=#F5F5F5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="383" y="351" as="sourcePoint" />
+            <mxPoint x="383" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w7heQW5GqkU1-STsUryA-19" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Tratamento e envio para o tópico no kafka&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#131414;" vertex="1" parent="1">
+          <mxGeometry x="473" y="231" width="126" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="w7heQW5GqkU1-STsUryA-20" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;strokeColor=#F5F5F5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="533" y="282" as="sourcePoint" />
+            <mxPoint x="533" y="346" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
